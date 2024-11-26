@@ -1,32 +1,10 @@
-import { useEffect, useState } from "react";
 import BlogLists from "./BlogLists";
+import useFetch from "./useFetch";
+
+
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(null);
-  const [isPending, setIsPending] = useState(true);
-  const [error, setError] = useState([]);
-
-  const handleDelete = (id) => {
-    const newBlogs = blogs.filter((blog) => blog.id !== id);
-    setBlogs(newBlogs);
-  };
-
-  useEffect(() => {
-    setTimeout(() => {
-      fetch("http://localhost:8000/blogs")
-        .then((res) => {
-          return res.json();
-        })
-        .then((data) => {
-          setBlogs(data);
-          setIsPending(false);
-          setError(null)
-        })
-        .catch((err) => {
-          setError(err.message);
-        });
-    }, 1000);
-  }, []);
+  const { data:blogs, isPending, error} = useFetch("http://localhost:8000/blogs");
 
   return (
     <div className="home">

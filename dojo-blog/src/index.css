@@ -43,8 +43,7 @@
 }
 
 .blog-preview:hover {
-  box-shadow: 5.5px 5px 5px rgba(0, 0, 0, 1);
-  border-radius: 10px;
+  background-color: rgba(128,128,128,0.1);
 }
 
 .blog-preview h2 {
