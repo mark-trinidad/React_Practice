@@ -5,18 +5,17 @@ import Create from "./Create";
 import BlogDetails from "./BlogDetails";
 import NotFound from "./NotFound";
 
-
 function App() {
   return (
-    <Router>
+    <Router basename="/React_Practice/dojo-blog">
       <div className="App">
         <Navbar />
         <div className="content">
           <Routes>
-            <Route path="/React_Practice/dojo-blog" element={<Home />}></Route>
-            <Route path="/create" element={<Create />}></Route>
-            <Route path="/blogs/:id" element={<BlogDetails />}></Route>
-            <Route path="*" element={<NotFound/>}></Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/create" element={<Create />} />
+            <Route path="/blogs/:id" element={<BlogDetails />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
