@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route path="/" element={<Home />}></Route>
+            <Route path="/React_Practice/dojo-blog" element={<Home />}></Route>
             <Route path="/create" element={<Create />}></Route>
             <Route path="/blogs/:id" element={<BlogDetails />}></Route>
             <Route path="*" element={<NotFound/>}></Route>

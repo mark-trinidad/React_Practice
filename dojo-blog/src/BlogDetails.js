@@ -3,11 +3,11 @@ import useFetch from "./useFetch";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data:blog, isPending, error} = useFetch(`http://localhost:8000/blogs/${id}`);
+  const { data:blog, isPending, error} = useFetch(`https://raw.githubusercontent.com/mark-trinidad/React_Practice/master/dojo-blog/data/db.json${id}`);
   const navigate = useNavigate();
 
   const handleClick = () => {
-    fetch('http://localhost:8000/blogs/' + blog.id,{
+    fetch("https://raw.githubusercontent.com/mark-trinidad/React_Practice/master/dojo-blog/data/db.json" + blog.id,{
       method: 'DELETE'
     }).then(()=>{
       navigate("/")
