@@ -9,7 +9,7 @@ function App() {
         <Navbar />
         <div >
           <Routes>
-            <Route path="/React_Practice/" element={<Projects />}></Route>
+            <Route path="/react_practice/" element={<Projects />}></Route>
           </Routes>
         </div>
       </div>
