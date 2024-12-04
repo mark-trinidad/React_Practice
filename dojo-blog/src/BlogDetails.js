@@ -3,11 +3,11 @@ import useFetch from "./useFetch";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data:blog, isPending, error} = useFetch(`http://localhost:3000/blogs/${id}`);
+  const { data:blog, isPending, error} = useFetch(`http://localhost:8000/blogs/${id}`);
   const navigate = useNavigate();
 
   const handleClick = () => {
-    fetch("http://localhost:3000" + blog.id,{
+    fetch("http://localhost:8000" + blog.id,{
       method: 'DELETE'
     }).then(()=>{
       navigate("/")
@@ -24,6 +24,8 @@ const BlogDetails = () => {
           <div>{blog.body}</div>
         </article>
       )}
+
+     
     </div>
   );
 };
