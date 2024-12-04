@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React_Practice/static/css/main.95d68835.css",
-    "main.js": "/React_Practice/static/js/main.9dccf603.js",
-    "index.html": "/React_Practice/index.html",
-    "main.95d68835.css.map": "/React_Practice/static/css/main.95d68835.css.map",
-    "main.9dccf603.js.map": "/React_Practice/static/js/main.9dccf603.js.map"
+    "main.css": "/dojo-blog/static/css/main.6fd373f8.css",
+    "main.js": "/dojo-blog/static/js/main.7c515a63.js",
+    "index.html": "/dojo-blog/index.html",
+    "main.6fd373f8.css.map": "/dojo-blog/static/css/main.6fd373f8.css.map",
+    "main.7c515a63.js.map": "/dojo-blog/static/js/main.7c515a63.js.map"
   },
   "entrypoints": [
-    "static/css/main.95d68835.css",
-    "static/js/main.9dccf603.js"
+    "static/css/main.6fd373f8.css",
+    "static/js/main.7c515a63.js"
   ]
 }
