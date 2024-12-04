@@ -12,9 +12,9 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route path="/react_practice/dojo-blog" element={<Home />} />
-            <Route path="/react_practice/dojo-blog/create" element={<Create />} />
-            <Route path="/react_practice/dojo-blog/blogs/:id" element={<BlogDetails />} />
+            <Route path="/React_Practice/dojo-blog" element={<Home />} />
+            <Route path="/React_Practice/dojo-blog/create" element={<Create />} />
+            <Route path="/React_Practice/dojo-blog/blogs/:id" element={<BlogDetails />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
