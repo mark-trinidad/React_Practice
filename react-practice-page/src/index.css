@@ -15,7 +15,7 @@
   padding-top: 25px;
 }
 
-.navbar:hover{
+.navbar:hover {
   transition: color 0.8s ease;
   color: skyblue;
 }
