@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import styles from "../dojo.module.css";
 
 const Create = () => {
   const [title, setTitle] = useState("");
@@ -25,7 +26,7 @@ const Create = () => {
     });
   };
   return (
-    <div className="create">
+    <div className={styles.create}>
       <h2>Add a New Blog</h2>
       <form onSubmit={handleSubmit}>
         <label>Blog title:</label>

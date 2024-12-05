@@ -1,18 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
-
-* {
+*{
   background-color: #202124;
+}
+
+.body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: #202124;
+  font-family: "Libre Franklin", sans-serif;
+  color: #fff;
+  line-height: 1.6;
 }
 
 .navbar {
   font-family: "Unbounded";
-  font-size: 25px;
+  font-size: 40px;
   color: white;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 30px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .navbar:hover {
@@ -29,6 +36,7 @@
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center items horizontally */
   padding-top: 50px;
+  text-decoration: none;
 }
 
 .project-item {
