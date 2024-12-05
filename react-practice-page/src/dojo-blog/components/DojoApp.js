@@ -1,10 +1,9 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Route, Routes } from "react-router-dom";
 import Create from "./Create";
 import BlogDetails from "./BlogDetails";
 import NotFound from "./NotFound";
-
 
 function DojoApp() {
   return (
