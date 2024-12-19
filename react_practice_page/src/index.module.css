@@ -23,7 +23,7 @@
 }
 
 .navbar:hover {
-  transition: color 0.8s ease;
+  transition: color 0.2s ease;
   color: skyblue;
 }
 

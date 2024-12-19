@@ -7,7 +7,7 @@ const BlogLists = ({ blogs, title }) => {
       {blogs && Array.isArray(blogs) ? (
         blogs.map((blog) => (
           <div className="blog-preview" key={blog.id}>
-            <Link to={`/blogs/${blog.id}`}>
+            <Link to={`/dojo-blog/blogs/${blog.id}`}>
               <h2>{blog.title}</h2>
               <p>Written by {blog.author}</p>
             </Link>
