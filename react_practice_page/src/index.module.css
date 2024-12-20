@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
-*{
-  background-color: #202124;
-}
-
-.body {
+body {
   margin: 0;
   padding: 0;
-  background-color: #202124;
+  background-color: #202124;  
   font-family: "Libre Franklin", sans-serif;
   color: #fff;
   line-height: 1.6;
+  transition: background-color 0.8s ease;
 }
 
 .navbar {
@@ -25,6 +22,11 @@
 .navbar:hover {
   transition: color 0.2s ease;
   color: skyblue;
+}
+
+.navbar.shrink {
+  padding: 10px;
+  top: -10px;
 }
 
 .project-list {
@@ -71,7 +73,7 @@
 
 .project-line {
   height: 1px;
-  background-color: black;
+  
   width: 100%;
   position: absolute;
   top: 50%;

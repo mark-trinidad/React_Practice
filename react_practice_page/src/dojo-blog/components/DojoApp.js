@@ -8,7 +8,7 @@ import DojoStyles from "../dojo.module.css";
 
 function DojoApp() {
   return (
-    <div className="dojo-blog">
+    <div className={`${DojoStyles['body']} dojo-blog`}>
       <Navbar />
       <div className="content">
         <Routes>

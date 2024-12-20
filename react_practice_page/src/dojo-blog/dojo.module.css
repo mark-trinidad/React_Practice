@@ -3,10 +3,11 @@
 .body {
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: white;
   font-family: "Quicksand", sans-serif;
-  color: #333;
   line-height: 1.8;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
 }
 
 .navbar {
@@ -15,27 +16,32 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid grey;
 }
 
 .navbar h1 {
-  color: #f1356d;
+  color: red;
 }
 .navbar .links {
   margin-left: auto;
 }
 .navbar a {
+  color: black;
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: red;
 }
+
 .content {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
 }
 
 .blog-preview {
@@ -43,6 +49,9 @@
   margin: 20px 0;
   border: 1px dashed grey;
   border-radius: 10px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
 }
 
 .blog-preview:hover {
@@ -51,8 +60,11 @@
 
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: red;
   margin-bottom: 8px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
 }
 
 .blog-preview a{
@@ -63,17 +75,22 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 10px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
 }
 .blog-details div {
   margin: 20px 0;
+  text-decoration: none;
 }
 .blog-details button {
-  background: #f1356d;
-  color: #fff;
+  background: black;
+  color: black;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* create new blog form */
@@ -88,7 +105,7 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: black;
   margin-bottom: 30px;
 }
 .create input, .create textarea, .create select {
@@ -100,7 +117,7 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: black;
   color: #fff;
   border: 0;
   padding: 8px;
