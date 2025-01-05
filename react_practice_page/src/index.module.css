@@ -6,28 +6,30 @@ body {
   font-family: "Libre Franklin", sans-serif;
   color: #fff;
   line-height: 1.6;
-  transition: background-color 0.8s ease;
+
 }
 
 .navbar {
   font-family: "Unbounded";
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 0px;
   text-decoration: none;
   font-weight: bold;
+  position: relative; 
+  transition: all 0.5s ease; 
 }
 
+.navbar-link {
+  text-decoration: none;
+  color: inherit; 
+}
 .navbar:hover {
   transition: color 0.2s ease;
   color: skyblue;
 }
 
-.navbar.shrink {
-  padding: 10px;
-  top: -10px;
-}
 
 .project-list {
   font-family: "Libre Franklin";
@@ -37,7 +39,6 @@ body {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center items horizontally */
-  padding-top: 50px;
   text-decoration: none;
 }
 
